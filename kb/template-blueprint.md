@@ -4,7 +4,7 @@ Reference inspected 2026-10-18: [Home](https://crema-93cba7-fba5c5b8dd3798bb3079
 
 ## Evidence and limits
 
-Direct T3 browser inspection at 1280×800 and 390×844 CSS pixels confirms the layouts below. Private captures and complete snapshots are retained by the coordinator in `private/runs/template-analysis/`. Reference-selection captures provide additional matching views. The task-owned REA compatibility helper's one current launch was rejected by automatic execution review (`rejected: blocked by policy`). No endpoint or target ID exists and no REA Evidence ID was returned. **REA remains blocked; this blueprint is browser evidence, not completed REA acceptance.** Hidden server behavior, booking completion and unpublished states remain unknown.
+Direct T3 browser inspection at 1280×800 and 390×844 CSS pixels confirms the layouts below. Private captures and complete snapshots are retained by the coordinator in `private/runs/template-analysis/`. Reference-selection captures provide additional matching views. The task-owned REA compatibility helper's one current launch was rejected by automatic execution review (`rejected: blocked by policy`). No endpoint or target ID exists and no REA Evidence ID was returned. **This is browser/devtools evidence, accepted under Derek's October 18 nonblocking fallback; no REA capture is claimed.** Hidden server behavior, booking completion and unpublished states remain unknown.
 
 ## Observed system
 
