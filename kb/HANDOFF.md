@@ -4,7 +4,7 @@ Workflow: server-first (default). Endpoint: full.
 
 ## Current state
 
-2026-10-18: identity and factual research accepted by Astra. Public KB includes all 57 official menu listings, 11 categories, sourced contact/hours, and existing Menufy order/inquiry destinations. Asset collection is active under exclusive Astra specialist ownership of media files and kb/media.md. No frontend beyond the lifecycle starter and no publication yet.
+2026-10-18: Astra accepted identity, factual research, usable assets, functionality, the inspected Crema Bistro reference and content sufficiency. Sol High delivered populated Home/Menu/Visit at `7fe6ed163f53e84d585c93c65d6c621cc9ad5299`, with all 57 listings and four authentic rendered assets. Build, browser and independent container/production-Compose checks passed. Reconstruction acceptance is still blocked by missing REA evidence; no later pipeline stage, publication or Slack delivery is claimed. The authentic library contains 52 images and 12 shortlisted choices; 49 menu entries have confirmed or likely matches and eight lack a suitable photo.
 
 ## Coordinator checkpoint
 
@@ -12,8 +12,14 @@ Selected scope before reference search: separate Home, Menu and Visit pages, ful
 
 ## Next step
 
-Accept usable assets, inspect/select a premium landing/menu reference fitting real media, accept content sufficiency, then dispatch Sol High REA and populated frontend reconstruction. Coordinator owns pipeline/spec/reference; media specialist owns only assigned library outputs. Task identity and private evidence are held outside public source.
+Resolve the missing REA evidence prerequisite before accepting reconstruction. Sol's task is terminal/completed with no pending child runs and a completed checkpoint; its source and browser captures are preserved. Independent Astra runtime and external-link preparation is complete. Once the gate is resolved, accept the supported evidence, transfer ownership explicitly and send the existing source to Claude for refinement. First publication and immediate Slack delivery must precede full infrastructure and formal independent live review. Task identities and detailed private evidence remain outside public source.
 
 ## Blockers / waiting on
 
-No user input needed. Photo source access and dish coverage still being verified. No release or delivery claimed.
+The documented REA helper launch was rejected before execution by automatic approval review: `rejected: blocked by policy`; no further reason was supplied. No endpoint, target ID or REA Evidence ID exists. The current skill forbids counting a partial capture as completed reconstruction. Do not bypass the rejection. A permitted REA route or an explicit owner exception accepting ordinary browser evidence is needed to advance.
+
+Eight menu-photo gaps remain recorded honestly. The chosen reference menu is text-only: production and Abdul retain that treatment; the final scoped step adds the supported menu-photo variation to Derek's preview only. Slack connector requires reauthentication, but the authorized Chrome session loads the destination channel successfully. No release or delivery claimed.
+
+## Retention
+
+Local preview http://localhost:4310/ and its dependency/build folders remain for owner review and the immediate refinement handoff; recheck at that handoff. Dedicated Docker candidate containers, networks, synthetic volume, check image and builder/cache were removed after verification. Source, original photos, current package and evidence remain required build/delivery artifacts. No remote resources have been created.
