@@ -12,11 +12,11 @@ Home, the complete text-only Menu and Visit are published with authentic company
 
 The coordinator accepted independent Sol live recheck r3 on October 18: **73/73 cases pass, no findings**, at reviewed application revision `e2e666f38b7cd9041cc60639f932cf47a0366ba4`. The second slideshow correction (`72e15b6`) is published through protected PR #3, merged as `8aacf81f419b3a34a598d10d54955c5195a3d537`. The two earlier resize findings are resolved. See [validation](../docs/VALIDATION.md).
 
-Final handoff records are being published on the authorized branches. These documentation commits change their deployed revision; compare each environment's own branch head with its uncached `/version.json`. Application, runtime, assets, deployment configuration and workflow parity with the reviewed revision are checked separately. Final runtime and Slack receipts remain in the private operating record. The coordinator retains overall final-handoff acceptance.
+These final handoff records contain no product changes. Documentation commits change the deployed revision; compare each environment's own branch head with its uncached `/version.json`. Application, runtime, assets, deployment configuration and workflow parity with the reviewed revision are checked separately. Final runtime and Slack receipts remain in the private operating record. The coordinator retains overall final-handoff acceptance.
 
 ## Next step
 
-Finish final branch-head verification and the final Slack URL/review delivery, then return the normal handoff for coordinator inspection and acceptance. After normal acceptance, Astra completes the separately scoped **Derek-only menu-photo variation** and its focused Sol review. That variation is unfinished and must not be merged into main or Abdul. Preserve production and Abdul's accepted text-only menu.
+Coordinator: inspect the final branch-head, source-parity, runtime and persisted Slack delivery receipts in the private operating record, then accept the normal handoff. After normal acceptance, Astra completes the separately scoped **Derek-only menu-photo variation** and its focused Sol review. That variation is unfinished and must not be merged into main or Abdul. Preserve production and Abdul's accepted text-only menu.
 
 ## Scope and evidence
 
