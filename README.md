@@ -1,6 +1,6 @@
 # Orchard Market & Cafe
 
-Public-source website project for the Towson restaurant. See kb/HANDOFF.md for current stage and verified deployment state. Populated Home, Menu and Visit pages are implemented; publication remains pending.
+Public-source website project for the Towson restaurant. Home, Menu and Visit are published at https://orchardcafe.xsolutionsmd.com, with independent previews at https://d-orchardcafe.xsolutionsmd.com and https://a-orchardcafe.xsolutionsmd.com. See kb/HANDOFF.md for current review and verified deployment state.
 
 Primary pages: Home, complete Menu, Visit. Existing Menufy ordering and inquiry systems remain external integrations. No custom checkout or customer-message backend.
 
