@@ -227,7 +227,7 @@
       "findings": [],
       "accepted": true
     },
-    "final_handoff": "Records publication and verification in progress; coordinator acceptance required",
+    "final_handoff": "Public records reconciled; coordinator must inspect final environment, source-parity and persisted Slack receipts before normal acceptance",
     "next_scoped_change": "Derek-only menu-photo variation after normal handoff acceptance",
     "menu_item_photos": 0,
     "revision_policy": "Final documentation commits have distinct deployed SHAs; verify own branch head and product source parity. Legacy stage entries are historical; detailed current acceptances are in the private operating record."
