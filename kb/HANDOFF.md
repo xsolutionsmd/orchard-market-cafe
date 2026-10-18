@@ -4,7 +4,7 @@ Workflow: server-first (default). Endpoint: full.
 
 ## Current state
 
-2026-10-18: Astra accepted identity, factual research, usable assets, functionality, the inspected Crema Bistro reference and content sufficiency. Sol High delivered populated Home/Menu/Visit at `7fe6ed163f53e84d585c93c65d6c621cc9ad5299`, with all 57 listings and four authentic rendered assets. Build, browser and independent container/production-Compose checks passed. Astra accepted reconstruction using actual browser/devtools evidence under Derek's October 18 correction, then accepted the checked static backend/integrations. Refinement is next; no publication or Slack delivery is claimed. The authentic library contains 52 images and 12 shortlisted choices; 49 menu entries have confirmed or likely matches and eight lack a suitable photo.
+2026-10-18: Identity, research, assets, functionality, the inspected Crema reference, content sufficiency, populated reconstruction, static backend/integrations and refinement are accepted. Sol's full 57-listing implementation was refined by Claude and completed by Astra after an evidenced Claude quota limit. Refined source is `9c41350ca7210fb3d5bf4b620da8ef8c0be8a65c`; actual desktop/mobile and interaction checks passed (docs/REFINEMENT.md). Final production-container readiness is next; no publication or Slack delivery is claimed. The authentic library contains 52 images; 49 menu entries have confirmed or likely matches and eight lack a suitable photo.
 
 ## Coordinator checkpoint
 
@@ -12,7 +12,7 @@ Selected scope before reference search: separate Home, Menu and Visit pages, ful
 
 ## Next step
 
-Sol's task is terminal/completed with no pending child runs, accepted and released. Astra's static runtime and external-link checks are accepted. Send the existing populated source to Claude Opus 5.5 High for refinement with exclusive frontend ownership. First publication and immediate Slack delivery must precede full infrastructure and formal independent live review. Task identities and detailed private evidence remain outside public source.
+All reconstruction/refinement specialists are terminal and released. The instruction-only brief correction has renewed content, reconstruction and backend receipts. Astra accepted the completed quota fallback at `9c41350`. Run final container checks and the actual production Compose rehearsal, then first publication and immediate Slack delivery, before full infrastructure and independent live review. Task identities and detailed private evidence remain outside public source.
 
 ## Blockers / waiting on
 
