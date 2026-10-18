@@ -1,0 +1,174 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Orchard Market & Cafe",
+  "slug": "orchard-market-cafe",
+  "created": "2026-10-18T14:28:42.013473+00:00",
+  "repository": "xsolutionsmd/orchard-market-cafe",
+  "visibility": "public",
+  "url_key": "orchardcafe",
+  "build_type": "landing",
+  "features": [
+    "menu",
+    "external-ordering",
+    "call",
+    "directions",
+    "external-inquiry"
+  ],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Orchard Market & Cafe",
+    "address": "8815 Orchard Tree Ln, Towson, MD 21286",
+    "public_phone": "410-339-7700",
+    "public_email": null,
+    "website": "https://www.orchardmarketcafe.com/",
+    "maps_url": null,
+    "social": {
+      "facebook": "https://www.facebook.com/orchardmarketandcafe/"
+    },
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:28:58.565546+00:00",
+        "note": "Official Menufy-powered website and Maryland tourism listing independently match name, street address and 410-339-7700 on 2026-10-18; official footer links Facebook and Yelp. https://www.visitmaryland.org/listing/cafe/orchard-market-cafe"
+      },
+      {
+        "observed": "2026-10-18T14:29:20.806456+00:00",
+        "note": "Official https://www.orchardmarketcafe.com/ footer links facebook.com/orchardmarketandcafe and yelp.com/biz/orchard-market-and-cafe-towson-2; telephone and street match independent Maryland tourism listing. Verified browser 2026-10-18."
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "orchardcafe.xsolutionsmd.com",
+      "slug": "orchard-market-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-orchardcafe.xsolutionsmd.com",
+      "slug": "orchard-market-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-orchardcafe.xsolutionsmd.com",
+      "slug": "orchard-market-cafe-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T14:32:50.499844+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Inspected official rendered 57-listing menu in 11 categories, existing contact form and distinct dining/carryout hours; sourced KB and uncertainties populated."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T14:54:32.695726+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Af2d0fc3a-df9b-47ea-905d-9aebb63624b6%3Adelegate-task%3Aorchard-assets-r1-20261018",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "52 authentic images verified; 12 shortlisted; 49 of 57 menu listings matched (38 confirmed,11 likely), eight honest gaps. Nine source coverage entries inspected. Full-size hero/feature and contact-sheet crops reviewed."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T14:55:07.183600+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T14:32:50.499844+00:00",
+        "assets": "2026-10-18T14:54:32.695726+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Landing features chosen before reference search: Home, complete Menu, Visit; preserve verified Menufy ordering and inquiries, phone and directions. No custom backend."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T14:55:07.366271+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T14:55:07.183600+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Astra inspected live Crema home/menu/contact desktop and 390px mobile, full-screen navigation and text-only menu; compared Sofreh. Selected Crema for real-photo compact landing scope. Captures in private/runs/reference-selection and mapping in design-brief."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T14:55:07.371851+00:00"
+}
