@@ -197,10 +197,10 @@
     },
     "delivery": {
       "status": "done",
-      "recorded": "2026-10-18T18:48:22.982406+00:00",
+      "recorded": "2026-10-18T19:45:06.690734+00:00",
       "workflow_version": 2,
       "owner": "sol-high",
-      "task_id": "node:delegated-task:command%3Amcp%3A441f6a5d-55e9-4696-98a1-b7e7b7e19df3%3Adelegate-task%3Aorchard-media-delivery-r1-20261018",
+      "task_id": "node:delegated-task:command%3Amcp%3A441f6a5d-55e9-4696-98a1-b7e7b7e19df3%3Adelegate-task%3Aorchard-final-handoff-r1-20261018",
       "prerequisites": {
         "assets": "2026-10-18T14:54:32.695726+00:00"
       },
@@ -208,12 +208,28 @@
       "quota_evidence": null,
       "quota_exhausted": false,
       "evidence": [
-        "Accepted single verified package delivery to Abdul in Orchard first-live thread; private/runs/media-delivery-r1.md and private/deliveries.json; 52 images, complete 57-item mapping with 8 honest photo gaps."
+        "Accepted single verified package delivery to Abdul in Orchard first-live thread; private/runs/media-delivery-r1.md and private/deliveries.json; 52 images, complete 57-item mapping with 8 honest photo gaps.",
+        "Reuse accepted persisted delivery: all 52 originals and 57-item index, exact current package fingerprint/hash/bytes and single verified Slack attachment. No rebuild, upload or duplicate message. Existing delivery receipt inspected."
       ]
     },
     "final-handoff": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T18:48:23.014633+00:00"
+  "updated": "2026-10-18T19:45:06.713648+00:00",
+  "current_release": {
+    "updated": "2026-10-18",
+    "reviewed_application_revision": "e2e666f38b7cd9041cc60639f932cf47a0366ba4",
+    "correction_merge_revision": "8aacf81f419b3a34a598d10d54955c5195a3d537",
+    "independent_recheck": {
+      "cases": 73,
+      "passed": 73,
+      "findings": [],
+      "accepted": true
+    },
+    "final_handoff": "Records publication and verification in progress; coordinator acceptance required",
+    "next_scoped_change": "Derek-only menu-photo variation after normal handoff acceptance",
+    "menu_item_photos": 0,
+    "revision_policy": "Final documentation commits have distinct deployed SHAs; verify own branch head and product source parity. Legacy stage entries are historical; detailed current acceptances are in the private operating record."
+  }
 }
