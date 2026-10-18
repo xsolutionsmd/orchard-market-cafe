@@ -34,3 +34,8 @@ Retain canonical originals/index/current delivered ZIP and meaningful source/rev
 ## Mobile hero correction — October 18, 2026
 
 The reported mobile-only paella background is removed from the Home slideshow. Phones now use the existing Lamb Kebob and Chicken Panir Sabzi photos with aspect-preserving cover crops, matching desktop; original files are unchanged. The unrelated menu treatment on each branch is preserved. The correction was checked locally at 393×664 and 1440×900, including pause and resize, and the application checks passed. Live review and exact release evidence belong to the scoped mobile-hero update record.
+
+
+## Derek-only paella width test - October 18, 2026
+
+Derek requested retaining the same paella image and testing a less elongated presentation on his branch. The original file is unchanged. This preview restores it first on tall screens with a photo-specific 1.5 horizontal CSS scale and centered cover crop. This is a visual proportion adjustment, not a claim of recovered camera geometry. Desktop keeps the accepted two-photo treatment; the menu variation is unchanged. Production and Abdul are not included in this test. Local and independent live validation are recorded in the scoped update evidence.
