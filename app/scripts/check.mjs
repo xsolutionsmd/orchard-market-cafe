@@ -88,10 +88,36 @@ for (const name of files) {
     if (/application\/ld\+json/i.test(m[1])) continue;
     for (const url of m[2].matchAll(/["'`](https?:\/\/[^"'`\s]+|\/\/[^"'`\s]+)["'`]/g)) resource(url[1]);
   }
-  const visible = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+  // Only exact menu-price spans are excluded from the generic unsupported-price rule.
+  // Every menu record is independently reconciled against the sourced fixture below.
+  const visible = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '')
+    .replace(/<span\b[^>]*\bdata-menu-price(?:\s|>)[^<]*<\/span>/gi, '');
   const text = decode(visible.replace(/<[^>]+>/g, ' '));
   check(!/>\s*0\d\s*</.test(visible) && !/\b0\d\s*\/\s*0\d\b/.test(text), `${name}: decorative numbering pattern found`);
   for (const pattern of banned) check(!pattern.test(text), `${name}: unsupported claim pattern ${pattern}`);
+}
+const menu = JSON.parse(readFileSync(join(app, 'src/menu.json'), 'utf8'));
+const menuHtml = readFileSync(join(dist, 'menu/index.html'), 'utf8');
+const records = [...menuHtml.matchAll(/<article\b[^>]*data-menu-key="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)];
+check(menu.items.length === 57 && new Set(menu.items.map(i => i.category)).size === 11, 'expected 57 sourced menu listings in 11 groups');
+check(records.length === 57 && new Set(records.map(r => r[1])).size === 57, 'rendered menu must contain all 57 unique keys');
+for (const item of menu.items) {
+  const record = records.find(r => r[1] === item.item_key);
+  check(!!record, `menu listing missing: ${item.item_key}`);
+  if (!record) continue;
+  for (const [tag, value] of [['h4', item.name], ['p', item.description], ['span', item.price]]) {
+    const match = record[2].match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)<\\/${tag}>`));
+    check(match && decode(match[1]) === value, `menu ${tag} mismatch: ${item.item_key}`);
+  }
+}
+check(!/<img\b/i.test(menuHtml), 'menu must remain text-only');
+for (const page of ['index.html', 'menu/index.html', 'visit/index.html']) {
+  const html = readFileSync(join(dist, page), 'utf8');
+  check(!html.includes('xs-stage') && !html.includes('being prepared'), `${page}: placeholder remains`);
+  for (const match of html.matchAll(/\b(?:src|href)="(\/[^"#?]+)"/g)) {
+    const path = match[1].endsWith('/') ? `${match[1]}index.html` : match[1];
+    check(existsSync(join(dist, path)), `${page}: missing local asset or route ${path}`);
+  }
 }
 for (const link of config.requiredLinks || []) check(links.has(link), `required link missing: ${link}`);
 const unexpected = [...external].filter(url => !(config.allowedExternalResources || []).some(allowed => url === allowed || (allowed.endsWith('/') && url.startsWith(allowed))));

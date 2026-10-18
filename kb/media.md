@@ -49,7 +49,12 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+| Site file | Type | Source page | Rights |
+|---|---|---|---|
+| app/public/images/chicken-panir-sabzi.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/lamb-kebob.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/orchard-mark.jpg | image | https://www.orchardmarketcafe.com/ | business-official |
+| app/public/images/orchard-storefront.webp | image | https://www.orchardmarketcafe.com/ | business-official |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
