@@ -110,7 +110,15 @@ for (const item of menu.items) {
     check(match && decode(match[1]) === value, `menu ${tag} mismatch: ${item.item_key}`);
   }
 }
-check(!/<img\b/i.test(menuHtml), 'menu must remain text-only');
+const photos = JSON.parse(readFileSync(join(app, 'src/menu-photos.json'), 'utf8'));
+check(Object.keys(photos).length === 55, 'Derek menu must show the 55 supported photo associations');
+check(Object.keys(photos).every(key => menu.items.some(i => i.item_key === key)), 'photo mapping contains an unknown menu item');
+for (const record of records) {
+  const images = [...record[2].matchAll(/<img\b[^>]*>/g)].map(m => attributes(m[0]));
+  const photo = photos[record[1]];
+  check(images.length === (photo ? 1 : 0), `unexpected photo count: ${record[1]}`);
+  if (photo && images[0]) check(images[0].src === photo.src && images[0].alt === photo.alt && photo.alt.trim() && images[0].width === '480' && images[0].height === '480' && images[0].loading === 'lazy', `photo identity or dimensions mismatch: ${record[1]}`);
+}
 for (const page of ['index.html', 'menu/index.html', 'visit/index.html']) {
   const html = readFileSync(join(dist, page), 'utf8');
   check(!html.includes('xs-stage') && !html.includes('being prepared'), `${page}: placeholder remains`);

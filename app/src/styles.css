@@ -13,3 +13,8 @@ dialog{position:fixed;inset:0;max-width:none;max-height:none;width:100%;height:1
 @media(max-width:360px){.menu-tabs>a{padding:8px 10px}.header-brand .wordmark{font-size:25px}.header-brand .wordmark span{font-size:5px}.wordmark{font-size:65px}.menu-tabs>a{font-size:19px}.item-title h4{font-size:18px}.item-title{gap:12px}.home-bottom{align-items:flex-start;flex-direction:column;gap:8px;bottom:calc(var(--bar) + 26px)}.home-bottom .motion-toggle{min-height:44px}.nav-links>a{font-size:34px}.hours>div{gap:12px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero-image{transition:none}}
 @media print{body{color:#111;background:white}.site-header,dialog,.action-bar,.menu-tabs,.menu-note{display:none!important}.menu-main{padding:0}.menu-panel[hidden]{display:block!important}.menu-panel{break-before:page}.menu-panel:first-of-type{break-before:auto}.menu-grid{display:block;columns:2;column-gap:40px}.menu-item{margin-bottom:22px}.menu-item p,.menu-category h3{color:#111}.menu-category{margin-bottom:35px}.menu-category h3{break-after:avoid}}
+
+/* Derek-only menu-photo variation: titles and prices keep the accepted text rhythm. */
+.item-detail.has-photo{display:grid;grid-template-columns:112px minmax(0,1fr);gap:18px;align-items:start}.item-photo{display:block;width:112px;height:112px;object-fit:cover;border-radius:2px}.item-detail.has-photo p{padding-right:0;min-width:0}
+@media(max-width:760px){.item-detail.has-photo{grid-template-columns:88px minmax(0,1fr);gap:16px}.item-photo{width:88px;height:88px}}
+@media(max-width:360px){.item-detail.has-photo{grid-template-columns:80px minmax(0,1fr);gap:12px}.item-photo{width:80px;height:80px}}

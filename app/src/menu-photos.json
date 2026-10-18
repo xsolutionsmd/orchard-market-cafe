@@ -1,0 +1,332 @@
+{
+  "lunch-pita-pocket-sandwiches-kubideh": {
+    "src": "/images/menu/e1547953ae0e.webp",
+    "alt": "Pita filled with grilled ground meat, feta, tomato and onion",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-pita-pocket-sandwiches-zaban": {
+    "src": "/images/menu/69fc238c7e8b.webp",
+    "alt": "Pita filled with sliced tongue, tomato and greens",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-pita-pocket-sandwiches-kashan": {
+    "src": "/images/menu/0e071b276341.webp",
+    "alt": "Pita filled with golden chicken, mushroom and onion",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-pita-pocket-sandwiches-vegetarian-grill": {
+    "src": "/images/menu/70aaa55f639b.webp",
+    "alt": "Pita filled with grilled eggplant, peppers, onion and tomato",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-pita-pocket-sandwiches-chicken-kebob": {
+    "src": "/images/menu/8b93feb47e56.webp",
+    "alt": "Pita filled with grilled chicken and onion",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-pita-pocket-sandwiches-caspian-breast-provolone": {
+    "src": "/images/menu/cf9d9a522f64.webp",
+    "alt": "Grilled chicken pita pocket with greens, tomato and side yogurt dip",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-soltani": {
+    "src": "/images/menu/b65e5e1df11f.webp",
+    "alt": "Tenderloin and ground-beef kebabs flanking saffron rice with grilled tomatoes",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-barg": {
+    "src": "/images/menu/81f6165df350.webp",
+    "alt": "Tenderloin kebab beside saffron rice, tomato, onion and sauce",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-kubideh": {
+    "src": "/images/menu/8a52f1f61265.webp",
+    "alt": "Twin ground-beef kebabs with rice, grilled tomato and onion",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-joojeh-kebob": {
+    "src": "/images/menu/8e4e2eee101a.webp",
+    "alt": "Grilled chicken breast pieces with saffron rice on green oval plate",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-garlic-eggplant-chicken": {
+    "src": "/images/menu/9faf16a52751.webp",
+    "alt": "Bone-in chicken in yellow-orange garlic sauce with eggplant, sour cream and rice",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-chicken-fesenjune": {
+    "src": "/images/menu/3a6045a149c0.webp",
+    "alt": "Chicken in dark walnut-pomegranate sauce beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-lamb-bademjune": {
+    "src": "/images/menu/451cc71e437e.webp",
+    "alt": "Lamb and eggplant in red tomato stew beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-spicy-kermani-beef": {
+    "src": "/images/menu/5217b57b6e5f.webp",
+    "alt": "Beef pieces with mushrooms, peppers and tomatoes in red sauce beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "lunch-portion-entrees-seafood-rashdi": {
+    "src": "/images/menu/e82798124e0d.webp",
+    "alt": "Seafood and vegetables in red sauce beside rice, in phone-gallery screenshot",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-haleem-bademjune-dinner": {
+    "src": "/images/menu/e6fa9b09010c.webp",
+    "alt": "Eggplant-bean spread topped with sour cream, walnuts and herbs, surrounded by pita",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-sauteed-bulgarian-feta-dinner": {
+    "src": "/images/menu/5517c87f6bbf.webp",
+    "alt": "Melted feta and tomatoes/onions with black olives and pita triangles",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-mango-shrimp-dinner": {
+    "src": "/images/menu/552146d8e571.webp",
+    "alt": "Shrimp in orange mango sauce with black olives, surrounded by pita",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-aash-0-reshteh-dinner": {
+    "src": "/images/menu/9581598d5303.webp",
+    "alt": "Thick green-brown herb, bean and noodle soup in a square bowl",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-eggplant-and-artichoke-dinner": {
+    "src": "/images/menu/859282e5f403.webp",
+    "alt": "Creamy eggplant-artichoke appetizer with black olives and pita triangles",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-scallops-and-calamari-dinner": {
+    "src": "/images/menu/e318fda306e7.webp",
+    "alt": "Scallops and calamari rings in orange garlic-curry sauce with olives, surrounded by pita",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-mushroom-zaban-dinner": {
+    "src": "/images/menu/792421b30348.webp",
+    "alt": "Tongue slices and portobello mushrooms in red curry sauce surrounded by pita",
+    "width": 480,
+    "height": 480
+  },
+  "warm-appetizers-grilled-persian-portobello-dinner": {
+    "src": "/images/menu/28cfd2185736.webp",
+    "alt": "Open grilled portobello cap with feta, grilled peppers/tomato, yogurt sauce and pita",
+    "width": 480,
+    "height": 480
+  },
+  "chilled-appetizers-mango-pear-salad-dinner": {
+    "src": "/images/menu/0f8718258c45.webp",
+    "alt": "Mango and pear slices over mixed salad greens, cucumber, tomato, olives and feta",
+    "width": 480,
+    "height": 480
+  },
+  "chilled-appetizers-yogurt-and-cucumber-salad-dinner": {
+    "src": "/images/menu/44a325b1b710.webp",
+    "alt": "White yogurt cucumber salad with herb garnish in a bowl, pita beside it",
+    "width": 480,
+    "height": 480
+  },
+  "chilled-appetizers-dried-fruit-salad-dinner": {
+    "src": "/images/menu/a2322d944c54.webp",
+    "alt": "Mixed greens topped with dried fruits and nuts",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-chicken-fesenjune-dinner": {
+    "src": "/images/menu/3a6045a149c0.webp",
+    "alt": "Chicken in dark walnut-pomegranate sauce beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-duck-fesenjune-dinner": {
+    "src": "/images/menu/eec8f2906d3b.webp",
+    "alt": "Poultry in dark red walnut-pomegranate sauce beside saffron rice, red garnish",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-plum-lamb-dinner": {
+    "src": "/images/menu/6f6e5a58835d.webp",
+    "alt": "Red lamb stew with dark plums beside white rice",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-garlic-eggplant-chicken-dinner": {
+    "src": "/images/menu/9faf16a52751.webp",
+    "alt": "Bone-in chicken in yellow-orange garlic sauce with eggplant, sour cream and rice",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-zaban-dinner": {
+    "src": "/images/menu/3fd21a48bce8.webp",
+    "alt": "Sliced tongue and mushrooms in red sauce with rice on an entree plate",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-lamb-bademjune-dinner": {
+    "src": "/images/menu/451cc71e437e.webp",
+    "alt": "Lamb and eggplant in red tomato stew beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "classic-khoreshes-stews-shirin-polo-dinner": {
+    "src": "/images/menu/ea7ad11bfa04.webp",
+    "alt": "Bone-in poultry in orange sauce beside colorful jeweled rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-entrees-spicy-kermani-beef-dinner": {
+    "src": "/images/menu/5217b57b6e5f.webp",
+    "alt": "Beef pieces with mushrooms, peppers and tomatoes in red sauce beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-entrees-chicken-isfahanm-dinner": {
+    "src": "/images/menu/e7c8f1c9a8f5.webp",
+    "alt": "Sauced chicken topped with eggplant and cheese beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-entrees-chicken-zahedan-dinner": {
+    "src": "/images/menu/73ba28a4c44e.webp",
+    "alt": "Chicken in red sauce with green peppers, tomatoes and black olives beside rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-entrees-chicken-panir-sabzi-dinner": {
+    "src": "/images/menu/fd9b44ec5fe1.webp",
+    "alt": "Chicken in orange cream sauce with mushrooms, artichokes, feta and herbs beside rice",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-lamb-kebob-dinner": {
+    "src": "/images/menu/0ff44bb0f407.webp",
+    "alt": "Grilled lamb pieces, tomato, onion and green pepper with rice and dipping sauces",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-soltani-dinner": {
+    "src": "/images/menu/b65e5e1df11f.webp",
+    "alt": "Tenderloin and ground-beef kebabs flanking saffron rice with grilled tomatoes",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-barg-dinner": {
+    "src": "/images/menu/81f6165df350.webp",
+    "alt": "Tenderloin kebab beside saffron rice, tomato, onion and sauce",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-kubideh-dinner": {
+    "src": "/images/menu/8a52f1f61265.webp",
+    "alt": "Twin ground-beef kebabs with rice, grilled tomato and onion",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-joojeh-kebob-dinner": {
+    "src": "/images/menu/18cb9c00c9f7.webp",
+    "alt": "Grilled chicken breast with rice and vegetables in open black takeaway box",
+    "width": 480,
+    "height": 480
+  },
+  "classic-shish-kebobs-mixed-kebobs-dinner": {
+    "src": "/images/menu/59a1932cb8b3.webp",
+    "alt": "Mixed ground-beef, tenderloin and chicken kebabs with rice in takeaway box",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegetarians-vegetarian-kebob-dinner": {
+    "src": "/images/menu/97b68c0bf154.webp",
+    "alt": "Grilled portobello, tomato, green pepper and onion with hummus, rice and yogurt sauce",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegetarians-yazdi-vegetarian-dinner": {
+    "src": "/images/menu/9e3fec3a967c.webp",
+    "alt": "Vegetables in red curry-tomato sauce beside rice, inside a phone-gallery screenshot",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-seafood-toasted-almond-salmon-dinner": {
+    "src": "/images/menu/2069e51f346e.webp",
+    "alt": "Salmon filet topped with almonds, rice, grilled vegetables and sauces",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-seafood-chicken-abadan-dinner": {
+    "src": "/images/menu/da89714cb57e.webp",
+    "alt": "Chicken, shrimp and scallops in orange curry sauce beside rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-seafood-seafood-advieh-dinner": {
+    "src": "/images/menu/47ea960773e3.webp",
+    "alt": "Seafood in dark red sauce, visible shrimp and scallops, beside saffron rice",
+    "width": 480,
+    "height": 480
+  },
+  "persian-fusion-seafood-seafood-rashdi-dinner": {
+    "src": "/images/menu/e82798124e0d.webp",
+    "alt": "Seafood and vegetables in red sauce beside rice, in phone-gallery screenshot",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegan-vegetarians-yazdi-khoresh-dinner": {
+    "src": "/images/menu/9e3fec3a967c.webp",
+    "alt": "Vegetable curry and rice in phone-gallery screenshot",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegan-vegetarians-gulf-salad-dinner": {
+    "src": "/images/menu/424d3712acab.webp",
+    "alt": "Large mixed salad with greens, artichoke, cucumber, tomato, olives and feta; pita at side",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegan-vegetarians-salad-shirazi-dinner": {
+    "src": "/images/menu/bedc2dde6a0a.webp",
+    "alt": "Diced cucumber-tomato-herb salad with white feta on top",
+    "width": 480,
+    "height": 480
+  },
+  "for-our-vegan-vegetarians-hummus-dinner": {
+    "src": "/images/menu/73c5362408c5.webp",
+    "alt": "Hummus with parsley, paprika and black olives surrounded by pita triangles",
+    "width": 480,
+    "height": 480
+  },
+  "specials-persian-style-paella-special": {
+    "src": "/images/menu/e1db330c2693.webp",
+    "alt": "Mixed seafood and chicken rice platter with mussel shells and orange sauce",
+    "width": 480,
+    "height": 480
+  },
+  "specials-pistachio-chicken-special": {
+    "src": "/images/menu/cc9a0e544b66.webp",
+    "alt": "Chicken and mushrooms in creamy sauce beside rice in phone-gallery screenshot",
+    "width": 480,
+    "height": 480
+  }
+}
