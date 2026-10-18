@@ -1,32 +1,32 @@
 # Orchard Market & Cafe handoff
 
-Updated October18,2026. Full normal workflow accepted; final Derek-only photo update in progress.
+Updated October 18, 2026. Normal workflow complete; Derek-only photo product review, recheck and deployment accepted. Final documentation, package and runtime receipts accompany this handoff for coordinator acceptance.
 
 ## Current state
 
-Separate Home, Menu and Visit are published with authentic business photography and the existing external Menufy ordering/inquiry destinations. All57 sourced menu names, descriptions and prices remain intact. No custom checkout or inquiry backend was introduced; no real transaction or inquiry was submitted.
+Separate Home, Menu and Visit are published with authentic business photography and the existing external Menufy ordering/inquiry destinations. All 57 sourced menu names, descriptions and prices remain intact. No custom checkout or inquiry backend was introduced; no real transaction or inquiry was submitted.
 
-- Production:https://orchardcafe.xsolutionsmd.com
-- Derek:https://d-orchardcafe.xsolutionsmd.com
-- Abdul:https://a-orchardcafe.xsolutionsmd.com
-- Repository:https://github.com/xsolutionsmd/orchard-market-cafe
+- Production: https://orchardcafe.xsolutionsmd.com
+- Derek: https://d-orchardcafe.xsolutionsmd.com
+- Abdul: https://a-orchardcafe.xsolutionsmd.com
+- Repository: https://github.com/xsolutionsmd/orchard-market-cafe
 
-Normal full workflow completed at0f99d3cd9ef88a4aa1bf2c92115a857abf012cb7 on all three environments. Independent Sol r3 passed73/73 cases, including both corrected hero resize states; final runtime/source-parity/Slack evidence was accepted. Normal Slack handoff and52-original asset delivery are verified historical receipts.
+The normal full workflow completed at `0f99d3cd9ef88a4aa1bf2c92115a857abf012cb7`, retained on production and Abdul. Independent Sol r3 passed 73/73 cases, including both corrected hero resize states; final runtime/source-parity and delivery evidence was accepted. The normal 52-original asset delivery remains verified historical evidence, superseded for the expanded library by the current 57-original package.
 
 ## Deliberate Derek branch difference
 
-Derek requested as many supportable authentic menu photos as available, permitting confident visual/context inference. This branch adds55 photos across57 rows, from45 distinct originals and46 optimized crops.40 associations are confirmed and15 likely; private provenance records reasoning and source labels honestly. The two gaps are Filet Mignon & Provolone pita and Grilled Persian Portobello pita. Main/Abdul retain their accepted text-only menu. Do not merge this variation into either branch or erase it during later syncs.
+Derek requested as many supportable authentic menu photos as available, permitting confident visual/context inference. The accepted product revision is `8cb1086bf858b776720edabbc8d60faa97dafc36`. This branch displays 55 photos across 57 rows, using 45 distinct originals and 46 optimized crops. There are 40 confirmed and 15 likely associations; provenance retains the evidence and uncertainty. Filet Mignon & Provolone pita and Grilled Persian Portobello pita remain text-only because their preparations lack a supported photograph. Production and Abdul retain the accepted text-only menu. Do not merge this variation into either branch or erase it during later synchronization.
 
-Local npm checks, all57 exact records, actual1440/390/320 layouts,55 loaded images, row/control containment, tab selection/keyboard/hash refresh and navigation Escape/focus restoration pass. Live publication and independent focused photo/interaction review are next. The private scoped update is derek-menu-photos-20261018.
+Independent deployed review passed 34/34 cases with no findings and checked all 55 identities and final crops. The unchanged-version narrow recheck passed 10/10 cases. Desktop 1440px and phone 390px/320px lunch and dinner panels loaded all 55 photos with no containing-row or page overflow. Tabs, keyboard/hash refresh, navigation Escape/focus restoration, Home, Visit and external ordering destinations passed the applicable checks. The coordinator accepted the exact live revision and own branch head. Final docs-only publication preserves application, assets, runtime, Actions and deployment configuration; actual final environment SHA and fresh verification remain in the operating receipts.
 
-## Next step
+## Library and handoff
 
-Publish this Derek-only commit through its existing Actions/updater. Independently review the actual deployed revision and all55 photo associations/crops, fix findings once if needed, then verify the final live revision. Rebuild/deliver the changed57-original package and final Derek URL to Abdul in the existing Slack thread. Read back the unchanged canonical URL directory without editing it. Coordinator accepts the final evidence.
+The canonical private library contains 57 original images and no videos: 38 website, 8 Yelp, 7 DoorDash, 3 Google Maps and 1 third-party Instagram. Its single 57-row menu index and derived CSV/gallery retain source attribution, identity confidence, crops, serving limits and the two explicit gaps. All nine source families have recorded checks; bounded or inaccessible sources remain qualified in `media.md`. This is not an exhaustive historical archive.
+
+The final package is generated after finalizing that index and its derived views. It includes all originals, manifest, coverage, readable mapping and gallery. Package integrity, final Slack attachment/message readback, unchanged URL-directory readback and the final Derek release are retained in the private final operating receipts. Coordinator inspection and acceptance is the remaining workflow action.
 
 ## Constraints and retention
 
-Preserve the accepted Crema design, separate pages, no decorative numbering, current stack and independent environments. No Stitch. REA was unavailable and ordinary browser/devtools inspection was accepted; do not retry rejected helpers. Gathered business-asset permission is already confirmed; retain provenance. Unknown business facts remain unknown.
+Preserve the accepted Crema design, separate pages, no decorative numbering, current stack and independent environments. No Stitch. REA was unavailable and ordinary browser/devtools inspection was accepted. Gathered business-asset permission is confirmed across sources and authorized environments; provenance labels are not permission gates. Unknown business facts remain unknown.
 
-Derek's direct resumption superseded the abandoned advisory release queue; no coordinator broadcasts or grant loop. Existing technical locks, protected checks and environment boundaries still apply. No shared-host repair/restart, gateway change or broad Docker probing. Earlier temporary DNS failures remain dated evidence, separate from later passes.
-
-Retain canonical originals/index/current delivered ZIP and meaningful review receipts. Local Vite4310, dependencies and dist are used for this update and must be retired when done. Prior rehearsal containers/resources were removed; historical recycling receipts are private. Hosted three environments remain required. Direct first-release image cleanup awaits exact reference/minimum-age inspection, preserving current and two prior managed releases.
+Retain canonical originals/index/current delivered ZIP and meaningful source/review evidence. Completed disposable local photo staging and runtime output are recycled only after ownership, hashes and recovery are verified; dependencies are reproducible from the lockfile. Preserve all three hosted services and their data. Retain the original first-release server image under the minimum-age policy, alongside the current and two previous managed releases; recheck after October 19, 2026. No host cleanup or restart is part of this handoff.

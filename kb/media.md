@@ -56,53 +56,53 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 | Site file | Type | Source page | Rights |
 |---|---|---|---|
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/e6fa9b09010c.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/5517c87f6bbf.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/552146d8e571.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/9581598d5303.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/859282e5f403.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/3fd21a48bce8.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/0f8718258c45.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/44a325b1b710.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/3a6045a149c0.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/451cc71e437e.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/ea7ad11bfa04.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/e7c8f1c9a8f5.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/73ba28a4c44e.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/chicken-panir-sabzi.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/lamb-kebob.webp | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/b65e5e1df11f.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/81f6165df350.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/8a52f1f61265.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/18cb9c00c9f7.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/59a1932cb8b3.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/9e3fec3a967c.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/2069e51f346e.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/da89714cb57e.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/e82798124e0d.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/424d3712acab.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/bedc2dde6a0a.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/73c5362408c5.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/persian-style-paella.webp | image | https://www.orchardmarketcafe.com/order | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/menu/cc9a0e544b66.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/orchard-mark.jpg | image | https://www.orchardmarketcafe.com/ | business-official |
 | app/public/images/orchard-storefront.webp | image | https://www.orchardmarketcafe.com/ | business-official |
-| (not yet placed) | image | https://www.orchardmarketcafe.com/ | business-official |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=c7lD6dQ47VZtm7oe09TNhw | public-unverified |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=HbAsGs7HDJ4cQrmLbMGlNg | public-unverified |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=voR_ooyIFa1ozFOInx87rQ | public-unverified |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=OCEWAkLxYMsIExZ7C0OoEQ | public-unverified |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=9o2v-YiRCMRFF4w_VIrI4A | public-unverified |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
-| (not yet placed) | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIC2zcWxHw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvaQiUqrojnZviTj1EEi7RwMo-nOV1vS_WGBeMRlfCLhp1j45BxMQUkmEQOchF2ikAZUIqCn5YQCWLb-M17WQ7yawozLG_GD4tHBj14ZOBY0SGuOPa0xQmslwvtDvRO2jdmH3h%3Dw203-h152-k-no!7i4030!8i3022!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
-| (not yet placed) | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?start=60&select=RSdaIUVaThYW1BYMpGmduw | public-unverified |
-| (not yet placed) | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICGoefZcw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9S0rkpZYPGFUo-Voz6-lf9bzukXXLeb2COvN748U8lkWsxQfW7kTYCETKstxnVe63aUOU6qQ1Lzc1L0EocxyM8kGAwYK_T8v5QXw-OI1NY4GAZl7IPopjG4Tdq2gmpg1AAXse0c%3Dw203-h270-k-no!7i600!8i800!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
-| (not yet placed) | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICR-eHFVA!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9R1_MK-bRgOKkQqLKwCpeiFcdPpU98xbjvPa7Op41VVa0-LPUmFX-yAxzgcTv8XlKAGfcrz1eg1YIV3Aja--oUBWOs4x4ZbR6QoMt_k0VRWp5jkFtzkvJNe3uzWMt5l7odS1JXp%3Dw203-h152-k-no!7i4032!8i3024!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
-| (not yet placed) | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/97b68c0bf154.webp | image | https://www.orchardmarketcafe.com/ | business-official |
+| app/public/images/menu/47ea960773e3.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=c7lD6dQ47VZtm7oe09TNhw | public-unverified |
+| app/public/images/menu/5217b57b6e5f.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=HbAsGs7HDJ4cQrmLbMGlNg | public-unverified |
+| app/public/images/menu/6f6e5a58835d.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=voR_ooyIFa1ozFOInx87rQ | public-unverified |
+| app/public/images/menu/9faf16a52751.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=OCEWAkLxYMsIExZ7C0OoEQ | public-unverified |
+| app/public/images/menu/eec8f2906d3b.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?select=9o2v-YiRCMRFF4w_VIrI4A | public-unverified |
+| app/public/images/menu/28cfd2185736.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/cf9d9a522f64.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/8e4e2eee101a.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/e318fda306e7.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/792421b30348.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
+| app/public/images/menu/0e071b276341.webp | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIC2zcWxHw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvaQiUqrojnZviTj1EEi7RwMo-nOV1vS_WGBeMRlfCLhp1j45BxMQUkmEQOchF2ikAZUIqCn5YQCWLb-M17WQ7yawozLG_GD4tHBj14ZOBY0SGuOPa0xQmslwvtDvRO2jdmH3h%3Dw203-h152-k-no!7i4030!8i3022!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
+| app/public/images/menu/69fc238c7e8b.webp | image | https://www.yelp.com/biz_photos/orchard-market-and-cafe-towson-2?start=60&select=RSdaIUVaThYW1BYMpGmduw | public-unverified |
+| app/public/images/menu/70aaa55f639b.webp | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICGoefZcw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9S0rkpZYPGFUo-Voz6-lf9bzukXXLeb2COvN748U8lkWsxQfW7kTYCETKstxnVe63aUOU6qQ1Lzc1L0EocxyM8kGAwYK_T8v5QXw-OI1NY4GAZl7IPopjG4Tdq2gmpg1AAXse0c%3Dw203-h270-k-no!7i600!8i800!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
+| app/public/images/menu/8b93feb47e56.webp | image | https://www.google.com/maps/place/Orchard+Market+%26+Caf%C3%A9/@39.3988298,-76.5684261,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICR-eHFVA!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9R1_MK-bRgOKkQqLKwCpeiFcdPpU98xbjvPa7Op41VVa0-LPUmFX-yAxzgcTv8XlKAGfcrz1eg1YIV3Aja--oUBWOs4x4ZbR6QoMt_k0VRWp5jkFtzkvJNe3uzWMt5l7odS1JXp%3Dw203-h152-k-no!7i4032!8i3024!4m9!3m8!1s0x89c80f2304d4e541:0xe1260ee0a0c5108c!8m2!3d39.3988298!4d-76.5684261!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tlnfdsh?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
+| app/public/images/menu/a2322d944c54.webp | image | https://www.doordash.com/store/orchard-market-&-caf-towson-28575530/35648150/ | business-official |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
@@ -111,10 +111,14 @@ Do not ask again per file/source/environment or treat old reference-only/public-
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
 
-## Derek-only menu-photo variation ? October 18, 2026
+## Accepted Derek-only menu-photo variation — October 18, 2026
 
-The expanded private library contains57 unique originals:38 website,8 Yelp,7 DoorDash,3 Google Maps and1 third-party Instagram; no videos. Its menu index covers all57 sourced rows:55 matched (40 confirmed,15 likely) and2 unsupported pita preparations:Filet Mignon & Provolone and Grilled Persian Portobello. Confident visual/context matches are accepted as likely, with reasoning retained; exact captions are not required. No generated or other-business dishes are used.
+The expanded library contains 57 unique original images: 38 website, 8 Yelp, 7 DoorDash, 3 Google Maps and 1 third-party Instagram; no videos. The canonical menu index covers all 57 sourced rows: 55 matched (40 confirmed, 15 likely), 2 missing-photo and 0 uncertain selections. The unsupported preparations are Filet Mignon & Provolone pita and Grilled Persian Portobello pita. Visual/context inference remains explicitly likely; no generated or other-business substitutes are used.
 
-Derek's branch renders55 menu-row photos using46 optimized crops from45 distinct originals, totaling1,761,792 bytes. Separate crops identify two pita fillings in one original. Lunch/dinner examples may share a photograph, with a visible serving-variation note. Original bytes, authors, source pages, dates, labels and inference confidence remain in the private index; public menu-photos.json maps only approved site copies. Phone-gallery chrome was cropped away.
+Derek's accepted product revision `8cb1086bf858b776720edabbc8d60faa97dafc36` renders 55 menu-row photos from 45 distinct originals and 46 optimized 480px WebP crops (1,761,792 bytes). Separate crops identify two different pita fillings in one original. Lunch/dinner examples may share a photograph with a serving-variation note. Original bytes, authors, source pages, dates, labels and inference reasoning remain in the private index; public `menu-photos.json` maps the site copies. Phone-gallery chrome is excluded from the final crops. Independent review passed 34/34 cases and all 55 identities/crops; the unchanged-version narrow recheck passed 10/10, with no findings.
 
-Production and Abdul preserve the reference's text-only menu. This is a deliberate Derek-only product difference; never overwrite it during preview synchronization or promote it to main/Abdul without explicit authorization. Normal52-original Slack delivery remains historical; an updated57-original package is due after focused live review. Existing permission covers these authentic gathered assets across authorized environments.
+Production and Abdul preserve the reference's text-only menu at normal revision `0f99d3cd9ef88a4aa1bf2c92115a857abf012cb7`. This deliberate Derek-only product difference must survive future synchronization and must not be promoted without explicit authorization. Final documentation-only publication preserves the accepted product. Normal 52-original delivery is historical; the expanded 57-original package includes finalized index, CSV, gallery, coverage and provenance. Delivery and fresh live-revision receipts are retained privately.
+
+All nine canonical source families were checked: website, Yelp, Google Maps/reviews, Instagram, Facebook, ChowNow, DoorDash, Uber Eats and Grubhub. Their actual partial/restricted/unavailable limits remain in the coverage table; this bounded pass does not claim complete historical coverage. The maintained menu index and its two explicit gaps are authoritative over older import scripts and staging plans.
+
+Standing permission covers the gathered business library across sources and authorized environments. Preserve the third-party attribution and likely identification limits; do not turn provenance labels into new permission gates. The current package's generated media summary is supplemented here by the accepted final-use and historical notes; its canonical menu index carries the reviewed status and source limits.
