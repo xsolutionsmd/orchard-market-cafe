@@ -14,7 +14,17 @@ navigation.addEventListener('close', () => {
   document.documentElement.classList.remove('nav-open');
   opener.focus();
 });
-// Native dialog supplies Escape, inert background and focus containment.
+// Keep Tab cycling through the navigation; native dialog supplies Escape and an inert background.
+navigation.addEventListener('keydown', event => {
+  if (event.key !== 'Tab') return;
+  const controls = [...navigation.querySelectorAll('button, a[href]')];
+  const first = controls[0], last = controls.at(-1);
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault(); last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault(); first.focus();
+  }
+});
 const tabs = [...document.querySelectorAll('.menu-tabs a')];
 if (tabs.length) {
   document.querySelector('.menu-tabs').setAttribute('role', 'tablist');
@@ -36,6 +46,9 @@ if (tabs.length) {
       event.preventDefault(); history.replaceState(null, '', tab.getAttribute('href')); choose();
     });
     tab.addEventListener('keydown', event => {
+      if (event.key === ' ') {
+        event.preventDefault(); tab.click(); return;
+      }
       if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
       event.preventDefault();
       const next = event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[1] : tabs.find(t => t !== tab);
@@ -48,21 +61,40 @@ const photos = [...document.querySelectorAll('.hero-image')];
 const motion = document.querySelector('.motion-toggle');
 if (photos.length > 1 && motion) {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let paused = reduced.matches, timer, current = 0;
+  const tall = matchMedia('(max-aspect-ratio: 4/5)');
+  let paused = false, timer, current = 0, slides = [];
+  const showCurrent = () => {
+    photos.forEach(photo => {
+      const selected = photo === slides[current];
+      photo.classList.toggle('is-current', selected);
+      photo.setAttribute('aria-hidden', String(!selected));
+    });
+  };
+  // Only photos displayed at this viewport shape take part; tall screens add the portrait photo first.
+  const arrange = () => {
+    slides = photos.filter(photo => getComputedStyle(photo).display !== 'none');
+    current = 0;
+    showCurrent();
+    // Set the first frame before enabling fades; CSS arrival must not reveal every slide.
+    requestAnimationFrame(() => requestAnimationFrame(() => photos[0].parentElement.classList.add('is-ready')));
+  };
   const synchronize = () => {
     clearInterval(timer);
-    motion.hidden = reduced.matches;
+    motion.hidden = reduced.matches || slides.length < 2;
     const stopped = paused || reduced.matches;
     motion.setAttribute('aria-label', stopped ? 'Play slideshow' : 'Pause slideshow');
     motion.querySelector('span').textContent = stopped ? 'Play photos' : 'Pause photos';
     motion.querySelector('svg').innerHTML = stopped ? '<path d="m6 3 11 7-11 7z"/>' : '<path d="M5 3h3v14H5zm7 0h3v14h-3z"/>';
-    if (!stopped && !document.hidden && !navigation.open) timer = setInterval(() => {
-      photos[current].classList.remove('is-current'); current = (current + 1) % photos.length; photos[current].classList.add('is-current');
+    if (!stopped && slides.length > 1 && !document.hidden && !navigation.open) timer = setInterval(() => {
+      current = (current + 1) % slides.length; showCurrent();
     }, 8000);
   };
   motion.addEventListener('click', () => { paused = !paused; synchronize(); });
-  reduced.addEventListener('change', () => { paused = reduced.matches; synchronize(); });
+  // A system preference change must not erase a visitor's explicit pause.
+  reduced.addEventListener('change', synchronize);
+  tall.addEventListener('change', () => { arrange(); synchronize(); });
   document.addEventListener('visibilitychange', synchronize);
   new MutationObserver(synchronize).observe(navigation, { attributes: true, attributeFilter: ['open'] });
+  arrange();
   synchronize();
 }

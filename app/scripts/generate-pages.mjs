@@ -8,6 +8,9 @@ const order = 'https://www.orchardmarketcafe.com/order';
 const maps = 'https://maps.google.com/?daddr=39.3988381,-76.5684423';
 const inquiry = 'https://www.orchardmarketcafe.com/Contact-Us';
 const arrow = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+// Tall viewports lead with the official portrait photo instead of cropping a wide plate.
+const portrait = '(max-aspect-ratio: 4/5)';
+const landscape = '(min-aspect-ratio: 4/5)';
 const active = (page, path) => page === path ? ' aria-current="page"' : '';
 const logo = '<span class="wordmark">Orchard<span>Market &amp; Cafe</span></span>';
 const titles = { home: 'Orchard Market & Cafe | Persian cuisine in Towson', menu: 'Menu | Orchard Market & Cafe', visit: 'Visit | Orchard Market & Cafe' };
@@ -17,7 +20,8 @@ return `<!doctype html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow"><meta name="description" content="${escape(descriptions[page])}">
 <meta name="theme-color" content="#141612"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>${escape(titles[page])}</title>
-${page === 'home' ? '<link rel="preload" as="image" href="/images/lamb-kebob.webp">' : ''}</head><body class="${page}-page">
+<meta property="og:site_name" content="Orchard Market &amp; Cafe"><meta property="og:type" content="website"><meta property="og:title" content="${escape(titles[page])}"><meta property="og:description" content="${escape(descriptions[page])}"><meta name="twitter:card" content="summary">
+${page === 'home' ? `<link rel="preload" as="image" href="/images/lamb-kebob.webp" media="${landscape}"><link rel="preload" as="image" href="/images/persian-style-paella.webp" media="${portrait}">` : ''}</head><body class="${page}-page">
 <a class="skip-link" href="#main">Skip to content</a><header class="site-header">
 <button class="menu-toggle" aria-label="Open navigation" aria-haspopup="dialog" aria-controls="navigation"><svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M2 5h24M2 14h24M2 23h24"/></svg></button>
 <a class="header-brand" href="/" aria-label="Orchard Market and Cafe home"${active(page,'home')}>${page === 'home' ? '<img src="/images/orchard-mark.jpg" width="30" height="43" alt="Orchard Market &amp; Cafe logo">' : logo}</a>
@@ -28,7 +32,7 @@ ${page === 'home' ? '<link rel="preload" as="image" href="/images/lamb-kebob.web
 ${body}<footer class="action-bar" aria-label="Quick actions"><a href="${order}">Order online ${arrow}</a><span aria-hidden="true"></span><a href="/menu/"${active(page,'menu')}>Menu ${arrow}</a></footer>
 <script type="module" src="/src/main.js"></script></body></html>`;
 }
-const home = `<main id="main" class="home-stage" tabindex="-1"><div class="hero-images"><img class="hero-image is-current" src="/images/lamb-kebob.webp" width="2048" height="1152" alt="Lamb kebob with grilled vegetables, basmati rice and dipping sauces" fetchpriority="high"><img class="hero-image" src="/images/chicken-panir-sabzi.webp" width="2048" height="1152" alt="Chicken Panir Sabzi in feta and herb sauce, served with basmati rice"></div><div class="hero-shade"></div>
+const home = `<main id="main" class="home-stage" tabindex="-1"><div class="hero-images"><img class="hero-image hero-portrait" src="/images/persian-style-paella.webp" width="1152" height="2048" alt="Persian Style Paella with shrimp, mussels and rice in a garlic curry sauce"><img class="hero-image is-current" src="/images/lamb-kebob.webp" width="2048" height="1152" alt="Lamb kebob with grilled vegetables, basmati rice and dipping sauces" fetchpriority="high"><img class="hero-image" src="/images/chicken-panir-sabzi.webp" width="2048" height="1152" alt="Chicken Panir Sabzi in feta and herb sauce, served with basmati rice" loading="lazy"></div><div class="hero-shade"></div>
 <div class="home-intro"><h1>${logo}</h1><p>Persian &amp; Middle Eastern cuisine.<br>A place at the table in Towson.</p><a class="home-address" href="${maps}">8815 Orchard Tree Ln, Towson, MD 21286</a></div>
 <div class="home-bottom"><p>Tuesday–Sunday · 11am–9pm</p><button class="motion-toggle" hidden aria-label="Pause slideshow"><svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M5 3h3v14H5zm7 0h3v14h-3z"/></svg><span>Pause photos</span></button></div></main>`;
 const labels = {'LUNCH PITA POCKET SANDWICHES':'Pita pocket sandwiches','LUNCH PORTION ENTREES':'Lunch entrées','WARM APPETIZERS':'Warm appetizers','CHILLED APPETIZERS':'Chilled appetizers','CLASSIC KHORESHES & STEWS':'Classic khoreshes & stews','PERSIAN FUSION ENTREES':'Persian fusion entrées','CLASSIC SHISH KEBOBS':'Classic shish kebobs','FOR OUR VEGETARIANS':'Vegetarian dishes','PERSIAN FUSION SEAFOOD':'Persian fusion seafood','FOR OUR VEGAN VEGETARIANS':'Salads & sides','SPECIALS':'Specials'};

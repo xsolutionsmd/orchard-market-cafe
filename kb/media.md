@@ -53,6 +53,7 @@ The full library is in the private company folder (`private/assets/originals/`, 
 |---|---|---|---|
 | app/public/images/chicken-panir-sabzi.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/lamb-kebob.webp | image | https://www.orchardmarketcafe.com/order | business-official |
+| app/public/images/persian-style-paella.webp | image | https://www.orchardmarketcafe.com/order | business-official |
 | app/public/images/orchard-mark.jpg | image | https://www.orchardmarketcafe.com/ | business-official |
 | app/public/images/orchard-storefront.webp | image | https://www.orchardmarketcafe.com/ | business-official |
 
