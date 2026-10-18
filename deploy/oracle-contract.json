@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "repo": "xsolutionsmd/orchard-market-cafe",
+  "slug": "orchard-market-cafe",
+  "hostname": "orchardcafe.xsolutionsmd.com",
+  "port": 8080,
+  "image": "ghcr.io/xsolutionsmd/orchard-market-cafe",
+  "mode": "stateless",
+  "architecture": "arm64",
+  "network": "xsolutions-proxy",
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "slug": "orchard-market-cafe",
+      "hostname": "orchardcafe.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/orchard-market-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "slug": "orchard-market-cafe-derek-dev",
+      "hostname": "d-orchardcafe.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/orchard-market-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "slug": "orchard-market-cafe-abdul-dev",
+      "hostname": "a-orchardcafe.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/orchard-market-cafe-abdul-dev"
+    }
+  ]
+}
