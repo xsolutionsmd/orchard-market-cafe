@@ -28,7 +28,6 @@ Quick identity review reused actual originals, provenance, hashes and displayed 
 
 ## Decisions and dated history
 
-<<<<<<< HEAD
 The October 18 19:25 UTC coordinator checkpoint established PR #3's successful required checks and merge, production/Abdul at `8aacf81`, and Derek frozen at `e2e666f` for independent recheck. That recheck subsequently passed and was accepted; the earlier ?publication/recheck pending? directions are superseded.
 
 Derek explicitly resumed the remaining build-scoped releases; the abandoned advisory dispatcher/release-slot loop stays stopped. Preserve protected checks, the technical updater lock and rollback. Earlier shared Docker DNS failures and temporary replacement 502s remain dated evidence; no shared-host repair, restart, gateway change or unrelated probing is authorized by this handoff.
@@ -44,10 +43,7 @@ Retain localhost:4310, app dependencies, build output and the current source for
 Earlier owned rehearsal containers/networks/synthetic volume, dedicated builder/cache and first-release local images were removed. The verified transport archive (22,687,232 bytes) and two superseded unsent packages (28,665,262 bytes) were recycled with recovery verified; recycling is not disk space freed. Infrastructure staging was cleaned separately.
 
 All three hosted services remain required. The original direct-release recovery image may now be superseded after the third managed release. Its exact current container/rollback/retention references need a host inspection before removal; defer that cleanup to a bounded authorized host-maintenance check after the imminent photo update, preserving current plus two previous successful managed releases. No broad Docker cleanup or host mutation is part of final handoff.
-=======
-Retain canonical originals/index/current delivered ZIP and meaningful source/review evidence. Completed disposable local photo staging and runtime output are recycled only after ownership, hashes and recovery are verified; dependencies are reproducible from the lockfile. Preserve all three hosted services and their data. Retain the original first-release server image under the minimum-age policy, alongside the current and two previous managed releases; recheck after October 19, 2026. No host cleanup or restart is part of this handoff.
 
 ## Mobile hero correction — October 18, 2026
 
 The reported mobile-only paella background is removed from the Home slideshow. Phones now use the existing Lamb Kebob and Chicken Panir Sabzi photos with aspect-preserving cover crops, matching desktop; original files are unchanged. The unrelated menu treatment on each branch is preserved. The correction was checked locally at 393×664 and 1440×900, including pause and resize, and the application checks passed. Live review and exact release evidence belong to the scoped mobile-hero update record.
->>>>>>> 89d54f7 (Replace elongated mobile hero with natural-proportion food photos)
