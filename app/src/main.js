@@ -62,7 +62,8 @@ const motion = document.querySelector('.motion-toggle');
 if (photos.length > 1 && motion) {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const tall = matchMedia('(max-aspect-ratio: 4/5)');
-  let paused = false, timer, current = 0, slides = [];
+  const photoLayer = photos[0].parentElement;
+  let paused = false, timer, readyFrame, current = 0, slides = [];
   const showCurrent = () => {
     photos.forEach(photo => {
       const selected = photo === slides[current];
@@ -72,11 +73,18 @@ if (photos.length > 1 && motion) {
   };
   // Only photos displayed at this viewport shape take part; tall screens add the portrait photo first.
   const arrange = () => {
+    // A breakpoint can hide the outgoing portrait immediately. Snap the replacement
+    // into place before restoring normal slideshow fades, including while paused.
+    cancelAnimationFrame(readyFrame);
+    photoLayer.classList.remove('is-ready');
     slides = photos.filter(photo => getComputedStyle(photo).display !== 'none');
     current = 0;
     showCurrent();
-    // Set the first frame before enabling fades; CSS arrival must not reveal every slide.
-    requestAnimationFrame(() => requestAnimationFrame(() => photos[0].parentElement.classList.add('is-ready')));
+    // Commit the no-transition frame before fades can be enabled again.
+    getComputedStyle(slides[current]).opacity;
+    readyFrame = requestAnimationFrame(() => {
+      readyFrame = requestAnimationFrame(() => photoLayer.classList.add('is-ready'));
+    });
   };
   const synchronize = () => {
     clearInterval(timer);
