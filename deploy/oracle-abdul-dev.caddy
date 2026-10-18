@@ -1,0 +1,3 @@
+a-orchardcafe.xsolutionsmd.com {
+    reverse_proxy orchard-market-cafe-abdul-dev:8080
+}
