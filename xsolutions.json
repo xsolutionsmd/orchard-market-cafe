@@ -140,7 +140,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:22:18.394330+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T16:19:42.584255+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Accepted final ARM64 container tests, exact revision/source, actual production Compose health/routes/read-only/noindex/cache/404 checks and desktop/mobile checks. private/runs/readiness-r1.md and readiness-runtime.json."
+      ],
+      "revision": "d197972f2b03c0bf7fdee50e8f9ec68dec4062b3",
+      "inputs_sha256": {
+        "kb/features.md": "8cfed8da0bae6339083af2359881110d7f4d1f2067a777fc260250da798f2429",
+        "kb/design-brief.md": "0ef9b15bd6491e66101116c9bec57f7f3f3a551acdddd27f7a8d5ac194f0a81b"
+      },
+      "content_recorded": "2026-10-18T15:51:16.726800+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -170,5 +189,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T14:55:07.371851+00:00"
+  "updated": "2026-10-18T16:22:18.413609+00:00"
 }
