@@ -80,6 +80,9 @@ if (photos.length > 1 && motion) {
     slides = photos.filter(photo => getComputedStyle(photo).display !== 'none');
     current = 0;
     showCurrent();
+    // A previously running CSS transition can survive if its target was already
+    // current. Cancel it so the breakpoint frame uses its final authored opacity.
+    photos.forEach(photo => photo.getAnimations().forEach(animation => animation.cancel()));
     // Commit the no-transition frame before fades can be enabled again.
     getComputedStyle(slides[current]).opacity;
     readyFrame = requestAnimationFrame(() => {
