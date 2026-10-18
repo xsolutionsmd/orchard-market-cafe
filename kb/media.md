@@ -63,3 +63,10 @@ Derek confirms owner permission for the gathered business library across sources
 Do not ask again per file/source/environment or treat old reference-only/public-unverified/permission-pending notes as approval gates.
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
+
+
+## Normal delivery and identity validation ? October 18, 2026
+
+The current 52-original ZIP, provenance and full 57-item index were delivered once to Abdul in the existing first-live Slack thread; persisted attachment readback was verified. Keep the exact delivery/package receipt private and reuse it without another upload. Coverage remains 49 matched entries (38 confirmed, 11 likely) and eight photo gaps; the source limits above still apply.
+
+Accepted live recheck r3 checked the five displayed food/brand/storefront associations against actual originals, provenance and final crops, and all five optimized live files matched source bytes. Main and Abdul follow the reference's text-only menu; Derek's menu-photo variation is a separate unfinished last step. Parallel collection staging is not part of this canonical library/package until separately reconciled.
