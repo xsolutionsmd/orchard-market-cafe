@@ -30,3 +30,7 @@ The final package is generated after finalizing that index and its derived views
 Preserve the accepted Crema design, separate pages, no decorative numbering, current stack and independent environments. No Stitch. REA was unavailable and ordinary browser/devtools inspection was accepted. Gathered business-asset permission is confirmed across sources and authorized environments; provenance labels are not permission gates. Unknown business facts remain unknown.
 
 Retain canonical originals/index/current delivered ZIP and meaningful source/review evidence. Completed disposable local photo staging and runtime output are recycled only after ownership, hashes and recovery are verified; dependencies are reproducible from the lockfile. Preserve all three hosted services and their data. Retain the original first-release server image under the minimum-age policy, alongside the current and two previous managed releases; recheck after October 19, 2026. No host cleanup or restart is part of this handoff.
+
+## Mobile hero correction — October 18, 2026
+
+The reported mobile-only paella background is removed from the Home slideshow. Phones now use the existing Lamb Kebob and Chicken Panir Sabzi photos with aspect-preserving cover crops, matching desktop; original files are unchanged. The unrelated menu treatment on each branch is preserved. The correction was checked locally at 393×664 and 1440×900, including pause and resize, and the application checks passed. Live review and exact release evidence belong to the scoped mobile-hero update record.
